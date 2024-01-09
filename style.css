@@ -124,16 +124,16 @@ nav ul li a:hover::after{
     position: relative;
 }
 
-    .tab-links::after {
-        content: '';
-        width: 0;
-        height: 3px;
-        background: #00a2ff;
-        position: absolute;
-        left: 0;
-        bottom: -8px;
-        transition: 0.5s;
-    }
+.tab-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #00a2ff;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
 
 .tab-links.active-link::after{
     width: 50%;
@@ -150,4 +150,16 @@ nav ul li a:hover::after{
 
 .tab-contents.active-tab{
     display: block;
+}
+
+/*---------------------Projects--------------------*/
+
+.project img{
+    width: 70%;
+    border-radius: 50px;
+}
+
+.about-col-1 img{
+    width: 25%;
+    border-radius: 50px;
 }
