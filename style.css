@@ -27,8 +27,6 @@ body{
 }
 
 nav{
-    background: #262626;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: space-between;
