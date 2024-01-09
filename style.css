@@ -76,7 +76,7 @@ nav ul li a:hover::after{
         color: #00a2ff;
 }
 
-/*---------------------------about section----------------- */
+/*---------------------------About Section----------------- */
 .profile{
 
 }
@@ -150,9 +150,10 @@ nav ul li a:hover::after{
 
 .tab-contents.active-tab{
     display: block;
+    
 }
 
-/*---------------------Projects--------------------*/
+/*---------------------Projects Section--------------------*/
 
 .project-list{
     display: grid;
@@ -233,5 +234,45 @@ nav ul li a:hover::after{
 }
 
 .btn:hover{
+    background: #00a2ff;
+}
+/*----------------Contact Section---------*/
+
+.contact-left{
+    flex-basis: 35%;
+
+}
+.contact-right{
+    flex-basis: 60%;
+}
+
+.contact-left p{
+    margin-top: 30px;
+}
+
+.contact-left p i{
+    color: #00a2ff;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons{
+    margin-top: 30px;
+}.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.social-icons a:hover{
+    color: #00a2ff;
+    transform: translateY(-5px);
+}
+
+.btn.btn2{
+    display: inline-block;
     background: #00a2ff;
 }
