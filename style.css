@@ -140,6 +140,14 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li span {
-    color: #00a2ff: 
+    color: #00a2ff; 
     font-size: 14px;
+}
+
+.tab-contents{
+    display: none;
+}
+
+.tab-contents.active-tab{
+    display: block;
 }
