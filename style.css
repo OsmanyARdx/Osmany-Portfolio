@@ -225,6 +225,12 @@ nav ul li a:hover::after{
     text-align: center;
 }
 
+.layer ul{
+    text-align: left; /* Align list items to the left */
+    padding-left: 0; /* Remove default padding */
+    margin-left: 0; /* Remove default margin */
+}
+
 .btn{
     display: block;
     margin: 50px auto;
