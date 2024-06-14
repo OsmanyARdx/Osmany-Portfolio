@@ -207,7 +207,7 @@ nav ul li a:hover::after{
     transform: scale(1.1);
 }
 
-.project2:hover .layer{
+.project2:hover .layer2{
     height: 100%;
 }
 
